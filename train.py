@@ -3,7 +3,6 @@ import torchvision
 from torchvision import transforms
 import torch.optim as optim
 from main import MobileNet
-from torch.utils.data import DataLoader
 
 # viz = Visdom(env='Mobilenet')
 # viz.line(np.array([[0., 0.]]), np.array([0]), win='train', opts=dict(title='loss&acc'))
